@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="589dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="589">
+    <group>
+        <clip-path android:pathData="M0,0h360v589h-360z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080021_ic_scratch_card_halo_effect__0"
+            android:pathData="M181.04,279.01L146.92,8L212.55,8L181.04,279.01Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080022_ic_scratch_card_halo_effect__1"
+            android:pathData="M181.3,279.01L147.18,550.01H212.81L181.3,279.01Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080023_ic_scratch_card_halo_effect__2"
+            android:pathData="M180.01,277.7L-91,311.82V246.19L180.01,277.7Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080024_ic_scratch_card_halo_effect__3"
+            android:pathData="M180,277.7L451.01,311.82V246.18L180,277.7Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080025_ic_scratch_card_halo_effect__4"
+            android:pathData="M179.52,278.53L12.93,494.99L-33.68,448.77L179.52,278.53Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080026_ic_scratch_card_halo_effect__5"
+            android:pathData="M179.33,278.34L394.38,109.93L347.78,63.71L179.33,278.34Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080027_ic_scratch_card_halo_effect__6"
+            android:pathData="M179.35,280.18L395.81,446.78L349.59,493.39L179.35,280.18Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080028_ic_scratch_card_halo_effect__7"
+            android:pathData="M179.34,280.18L10.93,65.13L-35.29,111.74L179.34,280.18Z"/>
+    </group>
+</vector>

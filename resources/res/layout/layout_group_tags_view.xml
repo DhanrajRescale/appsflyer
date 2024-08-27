@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/layout_group_tags_view_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.chip.ChipGroup
+        android:orientation="horizontal"
+        android:id="@+id/tags_layout"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:chipSpacingVertical="4dp">
+        <com.assetgro.stockgro.widget.ChipView
+            android:id="@+id/group_tag_first"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.assetgro.stockgro.widget.ChipView
+            android:id="@+id/group_tag_second"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.chip.ChipGroup>
+</LinearLayout>

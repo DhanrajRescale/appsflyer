@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_league_filter"
+    android:tag="layout/layout_upcoming_league_sort_0"
+    android:background="@color/stream_transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/filter_image"
+            android:visibility="gone"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_filter_startdate"
+            app:layout_constraintBottom_toBottomOf="@+id/filter_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/filter_text"/>
+        <TextView
+            android:id="@+id/filter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fee"
+            android:fontFamily="@font/inter_500"
+            android:layout_marginStart="4dp"
+            app:layout_constraintStart_toEndOf="@+id/filter_image"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_filter_arrows"
+            android:layout_marginStart="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/filter_text"
+            app:layout_constraintStart_toEndOf="@+id/filter_text"
+            app:layout_constraintTop_toTopOf="@+id/filter_text"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

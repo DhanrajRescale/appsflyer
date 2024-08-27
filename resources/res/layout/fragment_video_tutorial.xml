@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/fragment_video_tutorial_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="vertical"
+            android:id="@+id/tutorial_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <TextView
+            android:textSize="12dp"
+            android:id="@+id/sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/intro_slide_five_message"
+            android:fontFamily="@font/inter_500"
+            android:textAlignment="center"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"/>
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="132dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/ic_top_gainers"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

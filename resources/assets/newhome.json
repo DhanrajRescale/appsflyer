@@ -1,0 +1,1586 @@
+{
+  "sections": [
+    {
+      "section_id": "portfolios",
+      "heading": {
+        "title": {
+          "image_url": "https://storage.googleapis.com/home_page_assets/headings/your_portfolios_white.png",
+          "aspect_ratio": 10
+        }
+      },
+      "type": "portfolios",
+      "data": {
+        "elements": [
+          {
+            "portfolio_id": "d87154b4-3fcc-44f2-a4a8-325754f03654",
+            "portfolio_status": "Unavailable",
+            "portfolio_value": "₹10,00,000",
+            "invested_amount": "₹0",
+            "cash_balance": "₹9,88,367.50",
+            "total_returns": {
+              "value": "",
+              "percentage": "0%",
+              "type": ""
+            },
+            "asset_class": "OPTIONS",
+            "asset_class_text": "OPTIONS",
+            "redirection_url": "app.stockgro://stockgro.com/portfolio/detail/d87154b4-3fcc-44f2-a4a8-325754f03654",
+            "analytics": {
+              "card_type": "portfolio_section",
+              "card_sub_type": "options"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "top_portfolios",
+      "heading": {
+        "title": {
+          "image_url": "https://storage.googleapis.com/home_page_assets/headings/top_portfolios.png",
+          "aspect_ratio": 10
+        }
+      },
+      "type": "user_info",
+      "data": {
+        "elements": [
+          {
+            "image_url": "https://storage.googleapis.com/prod_stockgro-users/b5d82f93-d37e-471a-a512-87333e4541cd",
+            "redirection_url": "app.stockgro://stockgro.com/user_profile/b5d82f93-d37e-471a-a512-87333e4541cd/",
+            "name": "",
+            "returns": "-0.37%",
+            "analytics": {
+              "card_type": "top_portfolio",
+              "card_sub_type": "b5d82f93-d37e-471a-a512-87333e4541cd"
+            },
+            "sub_title": "Trending this week",
+            "type": "NEGATIVE"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "academy",
+      "heading": {},
+      "type": "banner",
+      "data": {
+        "image_url": "https://storage.googleapis.com/home_page_assets/banners/academy.png",
+        "redirection_url": "app.stockgro://stockgro.com/in_app_browser/https%3A%2F%2Fstockgro.club%2Facademy",
+        "aspect_ratio": 2.531,
+        "analytics": {
+          "card_type": "ad_banner",
+          "card_sub_type": "sg_academy"
+        }
+      }
+    },
+    {
+      "section_id": "markets",
+      "heading": {},
+      "type": "markets",
+      "data": {
+        "title": "MARKETS",
+        "sub_title": "Cues you need to know",
+        "elements": [
+          {
+            "category": "Gainers",
+            "icon_url": "https://storage.googleapis.com/home_page_assets/headings/up_Arrow.png",
+            "stocks": [
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/WELSPUNIND.png",
+                "name": "Welspun India",
+                "last_trade_price": "₹157.95",
+                "change": {
+                  "value": "+85.10",
+                  "percentage": "116.81%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/WELSPUNIND",
+                "sector": "Textiles",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Welspun India"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/TATASTLLP.png",
+                "name": "Tata Steel Long Products",
+                "last_trade_price": "₹833.95",
+                "change": {
+                  "value": "+106.45",
+                  "percentage": "14.63%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/TATASTLLP",
+                "sector": "Metals",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Tata Steel Long Products"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/BHARATRAS.png",
+                "name": "Bharat Rasayan",
+                "last_trade_price": "₹11870",
+                "change": {
+                  "value": "+1,452.54",
+                  "percentage": "13.94%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/BHARATRAS",
+                "sector": "Fertilisers & Pesticides",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Bharat Rasayan"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/DBL.png",
+                "name": "Dilip Buildcon",
+                "last_trade_price": "₹512.25",
+                "change": {
+                  "value": "+55.80",
+                  "percentage": "12.22%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/DBL",
+                "sector": "Construction",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Dilip Buildcon"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/OFSS.png",
+                "name": "Oracle Financial Services Software",
+                "last_trade_price": "₹9375",
+                "change": {
+                  "value": "+632.14",
+                  "percentage": "7.23%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/OFSS",
+                "sector": "IT",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Oracle Financial Services Software"
+                }
+              }
+            ],
+            "redirection_url": "app.stockgro://stockgro.com/market/stocks/insights/top_gainers",
+            "cta": "Show all"
+          },
+          {
+            "category": "Losers",
+            "icon_url": "https://storage.googleapis.com/home_page_assets/headings/down_Arrow.png",
+            "stocks": [
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/SANOFI.png",
+                "name": "Sanofi India",
+                "last_trade_price": "₹6,513.05",
+                "change": {
+                  "value": "-3,559.59",
+                  "percentage": "-35.33%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/SANOFI",
+                "sector": "Pharma",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Sanofi India"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/CAPLIPOINT.png",
+                "name": "Caplin Point Laboratories",
+                "last_trade_price": "₹1,399.90",
+                "change": {
+                  "value": "-61.94",
+                  "percentage": "-4.23%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/CAPLIPOINT",
+                "sector": "Pharma",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Caplin Point Laboratories"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/MARICO.png",
+                "name": "Marico",
+                "last_trade_price": "₹612.90",
+                "change": {
+                  "value": "-16.60",
+                  "percentage": "-2.63%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/MARICO",
+                "sector": "Consumer Goods",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Marico"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/SCI.png",
+                "name": "Shipping Corporation of India",
+                "last_trade_price": "₹254.32",
+                "change": {
+                  "value": "-5.45",
+                  "percentage": "-2.1%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/SCI",
+                "sector": "Services",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Shipping Corporation of India"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/RAILTEL.png",
+                "name": "Railtel Corporation Of India",
+                "last_trade_price": "₹416.80",
+                "change": {
+                  "value": "-8.25",
+                  "percentage": "-1.94%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/RAILTEL",
+                "sector": "Telecom",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Railtel Corporation Of India"
+                }
+              }
+            ],
+            "redirection_url": "app.stockgro://stockgro.com/market/stocks/insights/top_losers",
+            "cta": "Show all"
+          },
+          {
+            "category": "🔥 🧊What’s Hot & Cold",
+            "stocks": [
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/RBLBANK.png",
+                "name": "RBL Bank",
+                "last_trade_price": "₹258.50",
+                "change": {
+                  "value": "-0.48",
+                  "percentage": "-0.18%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/RBLBANK",
+                "sector": "Financial Services",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "RBL Bank"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/EMAMILTD.png",
+                "name": "Emami",
+                "last_trade_price": "₹703.55",
+                "change": {
+                  "value": "-12.95",
+                  "percentage": "-1.8%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/EMAMILTD",
+                "sector": "Consumer Goods",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Emami"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/HINDZINC.png",
+                "name": "Hindustan Zinc",
+                "last_trade_price": "₹675.50",
+                "change": {
+                  "value": "-12.75",
+                  "percentage": "-1.85%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/HINDZINC",
+                "sector": "Metals",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Hindustan Zinc"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/IDEA.png",
+                "name": "Vodafone Idea",
+                "last_trade_price": "₹16.34",
+                "change": {
+                  "value": "-0.08",
+                  "percentage": "-0.54%",
+                  "type": "NEGATIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/IDEA",
+                "sector": "Telecom",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Vodafone Idea"
+                }
+              },
+              {
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/APOLLOTYRE.png",
+                "name": "Apollo Tyres",
+                "last_trade_price": "₹479.05",
+                "change": {
+                  "value": "+1.15",
+                  "percentage": "0.24%",
+                  "type": "POSITIVE"
+                },
+                "redirection_url": "app.stockgro://stockgro.com/market/stocks/APOLLOTYRE",
+                "sector": "Automobile",
+                "analytics": {
+                  "card_type": "stock_card",
+                  "card_sub_type": "Apollo Tyres"
+                }
+              }
+            ],
+            "redirection_url": "app.stockgro://stockgro.com/market/stocks/insights/top_trending",
+            "cta": "Show all"
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "trade_view",
+      "heading": {
+        "title": {
+          "image_url": "https://storage.googleapis.com/home_page_assets/headings/h_social.png",
+          "aspect_ratio": 15.357
+        },
+        "sub_title": {
+          "image_url": "https://storage.googleapis.com/home_page_assets/headings/h_trade_views.png",
+          "aspect_ratio": 15.357
+        }
+      },
+      "type": "trade_view",
+      "data": {
+        "elements": [
+          {
+            "trade_content": {
+              "status": "Active",
+              "stock_meta": {
+                "identifier": "NHPC",
+                "name": "NHPC",
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/NHPC.png",
+                "last_traded_price": "₹102.03",
+                "market_price_change": {
+                  "value": "1.14",
+                  "percentage": "-1.1%",
+                  "type": "-"
+                },
+                "trade_ticks": [
+                  {
+                    "ts": 1718269200,
+                    "val": 102.57
+                  },
+                  {
+                    "ts": 1718268900,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718268600,
+                    "val": 102.5
+                  },
+                  {
+                    "ts": 1718268300,
+                    "val": 102.58
+                  },
+                  {
+                    "ts": 1718268000,
+                    "val": 102.52
+                  },
+                  {
+                    "ts": 1718267700,
+                    "val": 102.52
+                  },
+                  {
+                    "ts": 1718267400,
+                    "val": 102.32
+                  },
+                  {
+                    "ts": 1718267100,
+                    "val": 102.35
+                  },
+                  {
+                    "ts": 1718266800,
+                    "val": 102.27
+                  },
+                  {
+                    "ts": 1718266500,
+                    "val": 102.22
+                  },
+                  {
+                    "ts": 1718266200,
+                    "val": 102.24
+                  },
+                  {
+                    "ts": 1718265900,
+                    "val": 102.16
+                  },
+                  {
+                    "ts": 1718265600,
+                    "val": 102.13
+                  },
+                  {
+                    "ts": 1718265300,
+                    "val": 102.16
+                  },
+                  {
+                    "ts": 1718265000,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718264700,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718264400,
+                    "val": 102.21
+                  },
+                  {
+                    "ts": 1718264100,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718263800,
+                    "val": 102.35
+                  },
+                  {
+                    "ts": 1718263500,
+                    "val": 102.34
+                  },
+                  {
+                    "ts": 1718263200,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718262900,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718262600,
+                    "val": 102.34
+                  },
+                  {
+                    "ts": 1718262300,
+                    "val": 102.3
+                  },
+                  {
+                    "ts": 1718262000,
+                    "val": 102.26
+                  },
+                  {
+                    "ts": 1718261700,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718261400,
+                    "val": 102.28
+                  },
+                  {
+                    "ts": 1718261100,
+                    "val": 102.17
+                  },
+                  {
+                    "ts": 1718260800,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718260500,
+                    "val": 102.33
+                  },
+                  {
+                    "ts": 1718260200,
+                    "val": 102.41
+                  },
+                  {
+                    "ts": 1718259900,
+                    "val": 102.33
+                  },
+                  {
+                    "ts": 1718259600,
+                    "val": 102.2
+                  },
+                  {
+                    "ts": 1718259300,
+                    "val": 102.15
+                  },
+                  {
+                    "ts": 1718259000,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718258700,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718258400,
+                    "val": 102.19
+                  },
+                  {
+                    "ts": 1718258100,
+                    "val": 101.91
+                  },
+                  {
+                    "ts": 1718257800,
+                    "val": 102.03
+                  },
+                  {
+                    "ts": 1718257500,
+                    "val": 102.23
+                  },
+                  {
+                    "ts": 1718257200,
+                    "val": 102.51
+                  },
+                  {
+                    "ts": 1718256900,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718256600,
+                    "val": 102.45
+                  },
+                  {
+                    "ts": 1718256300,
+                    "val": 102.47
+                  },
+                  {
+                    "ts": 1718256000,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718255700,
+                    "val": 102.48
+                  },
+                  {
+                    "ts": 1718255400,
+                    "val": 102.53
+                  },
+                  {
+                    "ts": 1718255100,
+                    "val": 102.65
+                  },
+                  {
+                    "ts": 1718254800,
+                    "val": 102.5
+                  },
+                  {
+                    "ts": 1718254500,
+                    "val": 102.64
+                  },
+                  {
+                    "ts": 1718254200,
+                    "val": 102.71
+                  },
+                  {
+                    "ts": 1718253900,
+                    "val": 102.77
+                  },
+                  {
+                    "ts": 1718253600,
+                    "val": 102.81
+                  },
+                  {
+                    "ts": 1718253300,
+                    "val": 102.78
+                  },
+                  {
+                    "ts": 1718253000,
+                    "val": 102.74
+                  },
+                  {
+                    "ts": 1718252700,
+                    "val": 102.78
+                  },
+                  {
+                    "ts": 1718252400,
+                    "val": 102.68
+                  },
+                  {
+                    "ts": 1718252100,
+                    "val": 102.91
+                  },
+                  {
+                    "ts": 1718251800,
+                    "val": 102.73
+                  },
+                  {
+                    "ts": 1718251500,
+                    "val": 102.98
+                  },
+                  {
+                    "ts": 1718251200,
+                    "val": 103.1
+                  }
+                ]
+              },
+              "profit_left": {
+                "percentage": "37.21%",
+                "type": "POSITIVE",
+                "color": "GREEN",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              }
+            },
+            "analytics": {
+              "card_type": "trade_view",
+              "card_sub_type": "161f119f-f7e0-4ceb-bb14-0db04947f58e"
+            },
+            "redirection_url": "app.stockgro://stockgro.com/social/feed/post/8de54df6-7f0a-4253-ac79-93255ee0947a/161f119f-f7e0-4ceb-bb14-0db04947f58e"
+          },
+          {
+            "trade_content": {
+              "status": "Active",
+              "stock_meta": {
+                "identifier": "NHPC",
+                "name": "NHPC",
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/NHPC.png",
+                "last_traded_price": "₹102.03",
+                "market_price_change": {
+                  "value": "1.14",
+                  "percentage": "-1.1%",
+                  "type": "-"
+                },
+                "trade_ticks": [
+                  {
+                    "ts": 1718269200,
+                    "val": 102.57
+                  },
+                  {
+                    "ts": 1718268900,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718268600,
+                    "val": 102.5
+                  },
+                  {
+                    "ts": 1718268300,
+                    "val": 102.58
+                  },
+                  {
+                    "ts": 1718268000,
+                    "val": 102.52
+                  },
+                  {
+                    "ts": 1718267700,
+                    "val": 102.52
+                  },
+                  {
+                    "ts": 1718267400,
+                    "val": 102.32
+                  },
+                  {
+                    "ts": 1718267100,
+                    "val": 102.35
+                  },
+                  {
+                    "ts": 1718266800,
+                    "val": 102.27
+                  },
+                  {
+                    "ts": 1718266500,
+                    "val": 102.22
+                  },
+                  {
+                    "ts": 1718266200,
+                    "val": 102.24
+                  },
+                  {
+                    "ts": 1718265900,
+                    "val": 102.16
+                  },
+                  {
+                    "ts": 1718265600,
+                    "val": 102.13
+                  },
+                  {
+                    "ts": 1718265300,
+                    "val": 102.16
+                  },
+                  {
+                    "ts": 1718265000,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718264700,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718264400,
+                    "val": 102.21
+                  },
+                  {
+                    "ts": 1718264100,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718263800,
+                    "val": 102.35
+                  },
+                  {
+                    "ts": 1718263500,
+                    "val": 102.34
+                  },
+                  {
+                    "ts": 1718263200,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718262900,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718262600,
+                    "val": 102.34
+                  },
+                  {
+                    "ts": 1718262300,
+                    "val": 102.3
+                  },
+                  {
+                    "ts": 1718262000,
+                    "val": 102.26
+                  },
+                  {
+                    "ts": 1718261700,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718261400,
+                    "val": 102.28
+                  },
+                  {
+                    "ts": 1718261100,
+                    "val": 102.17
+                  },
+                  {
+                    "ts": 1718260800,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718260500,
+                    "val": 102.33
+                  },
+                  {
+                    "ts": 1718260200,
+                    "val": 102.41
+                  },
+                  {
+                    "ts": 1718259900,
+                    "val": 102.33
+                  },
+                  {
+                    "ts": 1718259600,
+                    "val": 102.2
+                  },
+                  {
+                    "ts": 1718259300,
+                    "val": 102.15
+                  },
+                  {
+                    "ts": 1718259000,
+                    "val": 102.18
+                  },
+                  {
+                    "ts": 1718258700,
+                    "val": 102.25
+                  },
+                  {
+                    "ts": 1718258400,
+                    "val": 102.19
+                  },
+                  {
+                    "ts": 1718258100,
+                    "val": 101.91
+                  },
+                  {
+                    "ts": 1718257800,
+                    "val": 102.03
+                  },
+                  {
+                    "ts": 1718257500,
+                    "val": 102.23
+                  },
+                  {
+                    "ts": 1718257200,
+                    "val": 102.51
+                  },
+                  {
+                    "ts": 1718256900,
+                    "val": 102.36
+                  },
+                  {
+                    "ts": 1718256600,
+                    "val": 102.45
+                  },
+                  {
+                    "ts": 1718256300,
+                    "val": 102.47
+                  },
+                  {
+                    "ts": 1718256000,
+                    "val": 102.55
+                  },
+                  {
+                    "ts": 1718255700,
+                    "val": 102.48
+                  },
+                  {
+                    "ts": 1718255400,
+                    "val": 102.53
+                  },
+                  {
+                    "ts": 1718255100,
+                    "val": 102.65
+                  },
+                  {
+                    "ts": 1718254800,
+                    "val": 102.5
+                  },
+                  {
+                    "ts": 1718254500,
+                    "val": 102.64
+                  },
+                  {
+                    "ts": 1718254200,
+                    "val": 102.71
+                  },
+                  {
+                    "ts": 1718253900,
+                    "val": 102.77
+                  },
+                  {
+                    "ts": 1718253600,
+                    "val": 102.81
+                  },
+                  {
+                    "ts": 1718253300,
+                    "val": 102.78
+                  },
+                  {
+                    "ts": 1718253000,
+                    "val": 102.74
+                  },
+                  {
+                    "ts": 1718252700,
+                    "val": 102.78
+                  },
+                  {
+                    "ts": 1718252400,
+                    "val": 102.68
+                  },
+                  {
+                    "ts": 1718252100,
+                    "val": 102.91
+                  },
+                  {
+                    "ts": 1718251800,
+                    "val": 102.73
+                  },
+                  {
+                    "ts": 1718251500,
+                    "val": 102.98
+                  },
+                  {
+                    "ts": 1718251200,
+                    "val": 103.1
+                  }
+                ]
+              },
+              "profit_left": {
+                "percentage": "47.02%",
+                "type": "POSITIVE",
+                "color": "GREEN",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              }
+            },
+            "analytics": {
+              "card_type": "trade_view",
+              "card_sub_type": "cc7d81be-83fa-4424-af7a-b63fd407a462"
+            },
+            "redirection_url": "app.stockgro://stockgro.com/social/feed/post/ee0604dc-6628-4108-8600-6df10b0c239f/cc7d81be-83fa-4424-af7a-b63fd407a462"
+          },
+          {
+            "trade_content": {
+              "status": "Active",
+              "stock_meta": {
+                "identifier": "TATAMTRDVR",
+                "name": "Tata Motors Ltd DVR",
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/TATAMTRDVR.png",
+                "last_traded_price": "₹662.30",
+                "market_price_change": {
+                  "value": "5.45",
+                  "percentage": "-0.81%",
+                  "type": "-"
+                },
+                "trade_ticks": [
+                  {
+                    "ts": 1718269200,
+                    "val": 665.8
+                  },
+                  {
+                    "ts": 1718268900,
+                    "val": 667.6
+                  },
+                  {
+                    "ts": 1718268600,
+                    "val": 663.95
+                  },
+                  {
+                    "ts": 1718268300,
+                    "val": 663.65
+                  },
+                  {
+                    "ts": 1718268000,
+                    "val": 663.85
+                  },
+                  {
+                    "ts": 1718267700,
+                    "val": 663.8
+                  },
+                  {
+                    "ts": 1718267400,
+                    "val": 664.4
+                  },
+                  {
+                    "ts": 1718267100,
+                    "val": 664.4
+                  },
+                  {
+                    "ts": 1718266800,
+                    "val": 663.3
+                  },
+                  {
+                    "ts": 1718266500,
+                    "val": 663.85
+                  },
+                  {
+                    "ts": 1718266200,
+                    "val": 663.45
+                  },
+                  {
+                    "ts": 1718265900,
+                    "val": 664.7
+                  },
+                  {
+                    "ts": 1718265600,
+                    "val": 665.6
+                  },
+                  {
+                    "ts": 1718265300,
+                    "val": 665
+                  },
+                  {
+                    "ts": 1718265000,
+                    "val": 665.15
+                  },
+                  {
+                    "ts": 1718264700,
+                    "val": 665.15
+                  },
+                  {
+                    "ts": 1718264400,
+                    "val": 664.75
+                  },
+                  {
+                    "ts": 1718264100,
+                    "val": 664.7
+                  },
+                  {
+                    "ts": 1718263800,
+                    "val": 664.25
+                  },
+                  {
+                    "ts": 1718263500,
+                    "val": 664.8
+                  },
+                  {
+                    "ts": 1718263200,
+                    "val": 664.5
+                  },
+                  {
+                    "ts": 1718262900,
+                    "val": 663.5
+                  },
+                  {
+                    "ts": 1718262600,
+                    "val": 665
+                  },
+                  {
+                    "ts": 1718262300,
+                    "val": 665.5
+                  },
+                  {
+                    "ts": 1718262000,
+                    "val": 665.95
+                  },
+                  {
+                    "ts": 1718261700,
+                    "val": 665.35
+                  },
+                  {
+                    "ts": 1718261400,
+                    "val": 665.35
+                  },
+                  {
+                    "ts": 1718261100,
+                    "val": 665.3
+                  },
+                  {
+                    "ts": 1718260800,
+                    "val": 663.7
+                  },
+                  {
+                    "ts": 1718260500,
+                    "val": 663.45
+                  },
+                  {
+                    "ts": 1718260200,
+                    "val": 663.85
+                  },
+                  {
+                    "ts": 1718259900,
+                    "val": 665.05
+                  },
+                  {
+                    "ts": 1718259600,
+                    "val": 664.55
+                  },
+                  {
+                    "ts": 1718259300,
+                    "val": 663.05
+                  },
+                  {
+                    "ts": 1718259000,
+                    "val": 663.3
+                  },
+                  {
+                    "ts": 1718258700,
+                    "val": 661.9
+                  },
+                  {
+                    "ts": 1718258400,
+                    "val": 663.45
+                  },
+                  {
+                    "ts": 1718258100,
+                    "val": 661.15
+                  },
+                  {
+                    "ts": 1718257800,
+                    "val": 661.85
+                  },
+                  {
+                    "ts": 1718257500,
+                    "val": 662.45
+                  },
+                  {
+                    "ts": 1718257200,
+                    "val": 665.15
+                  },
+                  {
+                    "ts": 1718256900,
+                    "val": 665.35
+                  },
+                  {
+                    "ts": 1718256600,
+                    "val": 666
+                  },
+                  {
+                    "ts": 1718256300,
+                    "val": 665.9
+                  },
+                  {
+                    "ts": 1718256000,
+                    "val": 666.6
+                  },
+                  {
+                    "ts": 1718255700,
+                    "val": 666.65
+                  },
+                  {
+                    "ts": 1718255400,
+                    "val": 666.25
+                  },
+                  {
+                    "ts": 1718255100,
+                    "val": 667.8
+                  },
+                  {
+                    "ts": 1718254800,
+                    "val": 667.6
+                  },
+                  {
+                    "ts": 1718254500,
+                    "val": 667.5
+                  },
+                  {
+                    "ts": 1718254200,
+                    "val": 667.9
+                  },
+                  {
+                    "ts": 1718253900,
+                    "val": 667.25
+                  },
+                  {
+                    "ts": 1718253600,
+                    "val": 667
+                  },
+                  {
+                    "ts": 1718253300,
+                    "val": 667.1
+                  },
+                  {
+                    "ts": 1718253000,
+                    "val": 666.95
+                  },
+                  {
+                    "ts": 1718252700,
+                    "val": 665.85
+                  },
+                  {
+                    "ts": 1718252400,
+                    "val": 666.45
+                  },
+                  {
+                    "ts": 1718252100,
+                    "val": 668
+                  },
+                  {
+                    "ts": 1718251800,
+                    "val": 667.05
+                  },
+                  {
+                    "ts": 1718251500,
+                    "val": 668.35
+                  },
+                  {
+                    "ts": 1718251200,
+                    "val": 667.75
+                  }
+                ]
+              },
+              "profit_left": {
+                "percentage": "51.97%",
+                "type": "POSITIVE",
+                "color": "GREEN",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              }
+            },
+            "analytics": {
+              "card_type": "trade_view",
+              "card_sub_type": "78521a9a-ad99-431c-bf4a-b8570e81fad1"
+            },
+            "redirection_url": "app.stockgro://stockgro.com/social/feed/post/8de54df6-7f0a-4253-ac79-93255ee0947a/78521a9a-ad99-431c-bf4a-b8570e81fad1"
+          },
+          {
+            "trade_content": {
+              "status": "Active",
+              "stock_meta": {
+                "identifier": "JUSTDIAL",
+                "name": "Justdial",
+                "image_url": "https://storage.googleapis.com/stocks_logo/stocks/JUSTDIAL.png",
+                "last_traded_price": "₹1,048.15",
+                "market_price_change": {
+                  "value": "29.90",
+                  "percentage": "2.93%",
+                  "type": "+"
+                },
+                "trade_ticks": [
+                  {
+                    "ts": 1718269200,
+                    "val": 1045.95
+                  },
+                  {
+                    "ts": 1718268900,
+                    "val": 1045.8
+                  },
+                  {
+                    "ts": 1718268600,
+                    "val": 1047.5
+                  },
+                  {
+                    "ts": 1718268300,
+                    "val": 1047.5
+                  },
+                  {
+                    "ts": 1718268000,
+                    "val": 1047.8
+                  },
+                  {
+                    "ts": 1718267700,
+                    "val": 1046.2
+                  },
+                  {
+                    "ts": 1718267400,
+                    "val": 1047.65
+                  },
+                  {
+                    "ts": 1718267100,
+                    "val": 1046.05
+                  },
+                  {
+                    "ts": 1718266800,
+                    "val": 1047
+                  },
+                  {
+                    "ts": 1718266500,
+                    "val": 1047.9
+                  },
+                  {
+                    "ts": 1718266200,
+                    "val": 1048.55
+                  },
+                  {
+                    "ts": 1718265900,
+                    "val": 1048.3
+                  },
+                  {
+                    "ts": 1718265600,
+                    "val": 1047.75
+                  },
+                  {
+                    "ts": 1718265300,
+                    "val": 1049
+                  },
+                  {
+                    "ts": 1718265000,
+                    "val": 1047.3
+                  },
+                  {
+                    "ts": 1718264700,
+                    "val": 1047.1
+                  },
+                  {
+                    "ts": 1718264400,
+                    "val": 1047.7
+                  },
+                  {
+                    "ts": 1718264100,
+                    "val": 1045.55
+                  },
+                  {
+                    "ts": 1718263800,
+                    "val": 1045
+                  },
+                  {
+                    "ts": 1718263500,
+                    "val": 1045.25
+                  },
+                  {
+                    "ts": 1718263200,
+                    "val": 1045
+                  },
+                  {
+                    "ts": 1718262900,
+                    "val": 1044.3
+                  },
+                  {
+                    "ts": 1718262600,
+                    "val": 1043.2
+                  },
+                  {
+                    "ts": 1718262300,
+                    "val": 1047
+                  },
+                  {
+                    "ts": 1718262060,
+                    "val": 1047.85
+                  },
+                  {
+                    "ts": 1718261700,
+                    "val": 1048
+                  },
+                  {
+                    "ts": 1718261400,
+                    "val": 1048
+                  },
+                  {
+                    "ts": 1718261100,
+                    "val": 1047.05
+                  },
+                  {
+                    "ts": 1718260800,
+                    "val": 1046.95
+                  },
+                  {
+                    "ts": 1718260500,
+                    "val": 1044
+                  },
+                  {
+                    "ts": 1718260200,
+                    "val": 1050.2
+                  },
+                  {
+                    "ts": 1718259900,
+                    "val": 1048.8
+                  },
+                  {
+                    "ts": 1718259600,
+                    "val": 1049.05
+                  },
+                  {
+                    "ts": 1718259300,
+                    "val": 1049.35
+                  },
+                  {
+                    "ts": 1718259000,
+                    "val": 1048.5
+                  },
+                  {
+                    "ts": 1718258700,
+                    "val": 1047.9
+                  },
+                  {
+                    "ts": 1718258400,
+                    "val": 1046.9
+                  },
+                  {
+                    "ts": 1718258100,
+                    "val": 1044.65
+                  },
+                  {
+                    "ts": 1718257800,
+                    "val": 1047.45
+                  },
+                  {
+                    "ts": 1718257500,
+                    "val": 1050.95
+                  },
+                  {
+                    "ts": 1718257200,
+                    "val": 1051.55
+                  },
+                  {
+                    "ts": 1718256900,
+                    "val": 1049.5
+                  },
+                  {
+                    "ts": 1718256600,
+                    "val": 1048.6
+                  },
+                  {
+                    "ts": 1718256300,
+                    "val": 1047.2
+                  },
+                  {
+                    "ts": 1718256000,
+                    "val": 1048.7
+                  },
+                  {
+                    "ts": 1718255700,
+                    "val": 1048.8
+                  },
+                  {
+                    "ts": 1718255400,
+                    "val": 1048.9
+                  },
+                  {
+                    "ts": 1718255100,
+                    "val": 1052
+                  },
+                  {
+                    "ts": 1718254800,
+                    "val": 1051
+                  },
+                  {
+                    "ts": 1718254500,
+                    "val": 1048.15
+                  },
+                  {
+                    "ts": 1718254200,
+                    "val": 1050.3
+                  },
+                  {
+                    "ts": 1718253900,
+                    "val": 1050
+                  },
+                  {
+                    "ts": 1718253600,
+                    "val": 1052.25
+                  },
+                  {
+                    "ts": 1718253300,
+                    "val": 1053.7
+                  },
+                  {
+                    "ts": 1718253000,
+                    "val": 1058.85
+                  },
+                  {
+                    "ts": 1718252700,
+                    "val": 1057
+                  },
+                  {
+                    "ts": 1718252400,
+                    "val": 1054.1
+                  },
+                  {
+                    "ts": 1718252100,
+                    "val": 1050
+                  },
+                  {
+                    "ts": 1718251800,
+                    "val": 1046.5
+                  },
+                  {
+                    "ts": 1718251500,
+                    "val": 1042.5
+                  },
+                  {
+                    "ts": 1718251200,
+                    "val": 1046.5
+                  }
+                ]
+              },
+              "profit_left": {
+                "percentage": "9.72%",
+                "type": "POSITIVE",
+                "color": "GREEN",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              }
+            },
+            "analytics": {
+              "card_type": "trade_view",
+              "card_sub_type": "40ae7d03-569a-42d2-9aee-274a1ab09293"
+            },
+            "redirection_url": "app.stockgro://stockgro.com/social/feed/post/8de54df6-7f0a-4253-ac79-93255ee0947a/40ae7d03-569a-42d2-9aee-274a1ab09293"
+          }
+        ],
+        "redirection_url": "app.stockgro://stockgro.com/social/feedview/stream/subcategory/trade_views",
+        "cta": "View More"
+      }
+    },
+    {
+      "section_id": "expert_view",
+      "heading": {
+        "title": {
+          "image_url": "https://storage.googleapis.com/home_page_assets/headings/experts.png",
+          "aspect_ratio": 15.357
+        }
+      },
+      "type": "expert_view",
+      "data": {
+        "elements": [
+          {
+            "group_id": "0886fc10-cabc-47fa-aa99-fd334975579a",
+            "group_name": "Value Investing with Sriram",
+            "name": "",
+            "image_url": "https://storage.googleapis.com/stockgro-chat-prod/group_media/0886fc10-cabc-47fa-aa99-fd334975579a/0886fc10-cabc-47fa-aa99-fd334975579a.jpeg",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/0886fc10-cabc-47fa-aa99-fd334975579a",
+            "members": "3 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "0886fc10-cabc-47fa-aa99-fd334975579a",
+              "group_name": "Value Investing with Sriram"
+            }
+          },
+          {
+            "group_id": "129999fd-634c-4c6e-917e-acfc491c343e",
+            "group_name": "Test-Aashu",
+            "name": "Maveri.ck27",
+            "image_url": "https://storage.googleapis.com/prod_stockgro_social/default_logo.png",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/129999fd-634c-4c6e-917e-acfc491c343e",
+            "members": "10 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "129999fd-634c-4c6e-917e-acfc491c343e",
+              "group_name": "Test-Aashu"
+            }
+          },
+          {
+            "group_id": "5932a6f7-d984-4e15-b5e7-23c7c8171037",
+            "group_name": "Aashu Test 2",
+            "name": "",
+            "image_url": "https://storage.googleapis.com/stockgro-chat/group_media/5932a6f7-d984-4e15-b5e7-23c7c8171037/437ca1d9-d1a8-424e-b2c1-8053741d8d26.png",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/5932a6f7-d984-4e15-b5e7-23c7c8171037",
+            "members": "7 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "5932a6f7-d984-4e15-b5e7-23c7c8171037",
+              "group_name": "Aashu Test 2"
+            }
+          },
+          {
+            "group_id": "9588cad3-8d6f-4dcf-8fad-a3db0b4eeb6d",
+            "group_name": "Aashu Test - 1",
+            "name": "",
+            "image_url": "https://storage.googleapis.com/stockgro-chat/group_media/9588cad3-8d6f-4dcf-8fad-a3db0b4eeb6d/39904206-51e3-4aa8-acc4-cc457913652c.png",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/9588cad3-8d6f-4dcf-8fad-a3db0b4eeb6d",
+            "members": "4 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "9588cad3-8d6f-4dcf-8fad-a3db0b4eeb6d",
+              "group_name": "Aashu Test - 1"
+            }
+          },
+          {
+            "group_id": "b8c1fe86-a5d4-41cd-94a6-ba580e76607d",
+            "group_name": "trading with pd",
+            "name": "harshaGelivi",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41BhKPIAyjL.png",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/b8c1fe86-a5d4-41cd-94a6-ba580e76607d",
+            "members": "5 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "b8c1fe86-a5d4-41cd-94a6-ba580e76607d",
+              "group_name": "trading with pd"
+            }
+          },
+          {
+            "group_id": "ee0604dc-6628-4108-8600-6df10b0c239f",
+            "group_name": "Expert Group 1 - Lalit",
+            "name": "Prarthna dev",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41BhKPIAyjL.png",
+            "redirection_url": "app.stockgro://stockgro.com/social/chats/ee0604dc-6628-4108-8600-6df10b0c239f",
+            "members": "43 members",
+            "analytics": {
+              "card_type": "group_reco",
+              "card_sub_type": "ee0604dc-6628-4108-8600-6df10b0c239f",
+              "group_name": "Expert Group 1 - Lalit"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "market_wrap",
+      "heading": {},
+      "type": "banner",
+      "data": {
+        "image_url": "https://storage.googleapis.com/home_page_assets/banners/market_wrap.png",
+        "redirection_url": "app.stockgro://stockgro.com/video/storage/https%3A%2F%2Fstorage.googleapis.com%2Fhome_page_assets_prod%2Fmarket_wrap%2Fmarket_videos%2F1.mp4",
+        "aspect_ratio": 2.644,
+        "analytics": {
+          "card_type": "market_wrap"
+        }
+      }
+    },
+    {
+      "section_id": "exclusive",
+      "heading": {},
+      "type": "banner",
+      "data": {
+        "image_url": "https://storage.googleapis.com/home_page_assets/banners/exclusive.png",
+        "redirection_url": "app.stockgro://stockgro.com/sg-plus",
+        "aspect_ratio": 2.631,
+        "analytics": {
+          "card_type": "ad_banner",
+          "card_sub_type": "sgplus"
+        }
+      }
+    }
+  ]
+}

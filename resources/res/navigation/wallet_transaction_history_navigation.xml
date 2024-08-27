@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wallet_transaction_history_navigation"
+    app:startDestination="@+id/walletTransactionListFragment">
+    <fragment
+        android:label="WalletTransactionListFragment"
+        android:name="com.assetgro.stockgro.ui.payments.transactions.list.WalletTransactionListFragment"
+        android:id="@+id/walletTransactionListFragment">
+        <action
+            android:id="@+id/action_walletTransactionListFragment_to_walletTransactionDetailFragment"
+            app:destination="@+id/walletTransactionDetailFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_from_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"/>
+    </fragment>
+    <fragment
+        android:label="WalletTransactionDetailFragment"
+        android:name="com.assetgro.stockgro.ui.payments.transactions.detail.WalletTransactionDetailFragment"
+        android:id="@+id/walletTransactionDetailFragment">
+        <argument
+            android:name="transactionId"
+            app:argType="string"/>
+        <argument
+            android:name="transactionStatus"
+            app:argType="string"/>
+    </fragment>
+</navigation>

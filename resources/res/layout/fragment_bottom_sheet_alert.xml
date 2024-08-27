@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="layout/fragment_bottom_sheet_alert_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:orientation="vertical"
+        android:id="@+id/layout_offer_tnc"
+        android:background="@drawable/rounded_sky_blue_rectangle_corner_radius_16dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-24dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="16dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/tnc_container"
+                android:background="@drawable/rounded_sky_blue_rectangle_corner_radius_16dp"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ok_button"
+                android:layout_width="match_parent"
+                android:layout_margin="24dp"
+                android:text="@string/ok"
+                style="@style/primaryButton"/>
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

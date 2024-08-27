@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/activity_group_invited_list_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/app_bar_layout"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar
+            android:theme="@style/ToolbarMenuStyle"
+            android:id="@+id/toolbar"
+            android:background="@drawable/collapsing_app_bar_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/collapsed_toolbar_height"
+            android:minHeight="@dimen/collapsed_toolbar_height"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:elevation="0dp"
+            app:layout_collapseMode="pin"
+            app:navigationIcon="@drawable/ic_back_button"
+            app:titleTextColor="@color/toolbarTitleColor"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar_layout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

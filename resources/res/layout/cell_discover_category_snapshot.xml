@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/cell_discover_category_snapshot_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/horizontal_category_layout"
+        android:tag="binding_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/layout_horizontal_discover_category"
+            layout="@layout/layout_horizontal_discover_category"/>
+        <include
+            android:id="@+id/layout_vertical_discover_category"
+            layout="@layout/layout_vertical_discover_category"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/cell_ria_basic_info_0"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="8dp">
+    <ImageView
+        android:id="@+id/ria_location"
+        android:tag="binding_1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_sg_info"/>
+    <TextView
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:tag="binding_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/public_sans_400"
+        android:layout_marginStart="16dp"/>
+</LinearLayout>

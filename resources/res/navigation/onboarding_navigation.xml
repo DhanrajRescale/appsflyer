@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboarding_navigation"
+    app:startDestination="@+id/intro_fragment">
+    <include app:graph="@navigation/login_navigation"/>
+    <include app:graph="@navigation/registration_navigation"/>
+    <fragment
+        android:label="Introduction"
+        android:name="com.assetgro.stockgro.feature_onboarding.presentation.login.intro.IntroFragment"
+        android:id="@+id/intro_fragment">
+        <argument
+            android:name="skipIntro"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+        <argument
+            android:name="isForcedLogout"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+        <argument
+            android:name="invalidSession"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+        <action
+            android:id="@+id/loginFlow"
+            app:destination="@+id/login_navigation"
+            app:enterAnim="@anim/enter_from_bottom"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/exit_to_bottom"
+            app:popUpTo="@+id/intro_fragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/registrationFlow"
+            app:destination="@+id/registration_navigation"
+            app:enterAnim="@anim/enter_from_bottom"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/exit_to_bottom"/>
+    </fragment>
+</navigation>

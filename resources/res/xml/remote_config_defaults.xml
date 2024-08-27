@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaults>
+    <entry>
+        <key>show_delete_account_button
+        </key>
+        <value>{&quot;enabled&quot;:false}
+        </value>
+    </entry>
+    <entry>
+        <key>lvl_library_forced_logout
+        </key>
+        <value>{&quot;enabled&quot;:false,&quot;license_block&quot;:&quot;false&quot;}
+        </value>
+    </entry>
+    <entry>
+        <key>dppvn
+        </key>
+        <value>{&quot;enabled&quot;:false,&quot;version&quot;:&quot;0&quot;}
+        </value>
+    </entry>
+    <entry>
+        <key>dtacvn
+        </key>
+        <value>{&quot;enabled&quot;:false,&quot;version&quot;:&quot;0&quot;}
+        </value>
+    </entry>
+    <entry>
+        <key>rdft
+        </key>
+        <value>{&quot;enabled&quot;:false,&quot;minutes&quot;:&quot;2880&quot;}
+        </value>
+    </entry>
+</defaults>

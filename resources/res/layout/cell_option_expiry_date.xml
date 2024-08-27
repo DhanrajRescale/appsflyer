@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expiry_date"
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    android:height="14dp"
+    android:textAlignment="center"
+    style="@style/ChipStyleNew"/>

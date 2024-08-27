@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_asset_stocks_selector"
+        android:id="@+id/stocks_fragment"
+        android:title="@string/stocks"/>
+    <item
+        android:icon="@drawable/ic_asset_fno_selector"
+        android:id="@+id/fno_fragment"
+        android:title="@string/text_fno"/>
+</menu>

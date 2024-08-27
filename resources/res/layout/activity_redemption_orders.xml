@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="layout/activity_redemption_orders_0"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@drawable/collapsing_app_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsed_toolbar_height"
+        android:minHeight="@dimen/collapsed_toolbar_height"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:elevation="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back_button"
+        app:titleTextColor="@color/black_1A1A1A"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

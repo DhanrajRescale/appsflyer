@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/group_chat_message_container"
+    android:tag="layout/list_item_message_text_layout_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14dp"
+        android:textColor="@color/black_1A1A1A"
+        android:autoLink="phone|email|web"
+        android:id="@+id/text_group_chat_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50dp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/inter_400"/>
+    <LinearLayout
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:id="@+id/message_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:textSize="11dp"
+            android:id="@+id/text_group_chat_edited"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_message_edited"
+            android:fontFamily="@font/inter_400"
+            android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+</LinearLayout>

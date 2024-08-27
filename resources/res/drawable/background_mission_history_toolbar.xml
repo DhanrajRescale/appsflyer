@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="216dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="216">
+    <group>
+        <clip-path android:pathData="M0,0h360v216h-360z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080009_background_mission_history_toolbar__0"
+            android:pathData="M149.5,-125L211.5,-125A159.5,159.5 0,0 1,371 34.5L371,34.5A159.5,159.5 0,0 1,211.5 194L149.5,194A159.5,159.5 0,0 1,-10 34.5L-10,34.5A159.5,159.5 0,0 1,149.5 -125z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f08000a_background_mission_history_toolbar__1"
+            android:pathData="M179.75,193.5C248.65,193.5 304.5,137.65 304.5,68.75C304.5,-0.15 248.65,-56 179.75,-56C110.85,-56 55,-0.15 55,68.75C55,137.65 110.85,193.5 179.75,193.5ZM179.5,189.21C221.11,189.21 254.85,155.48 254.85,113.86C254.85,72.25 221.11,38.51 179.5,38.51C137.88,38.51 104.14,72.25 104.14,113.86C104.14,155.48 137.88,189.21 179.5,189.21Z"
+            android:strokeAlpha="0.1"
+            android:fillAlpha="0.1"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

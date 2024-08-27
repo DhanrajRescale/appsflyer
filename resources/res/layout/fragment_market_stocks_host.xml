@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.assetgro.stockgro.widget.NestedScrollCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/fragment_market_stocks_host_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:background="@color/screenBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@color/screenBackground"
+            app:expandedTitleMarginEnd="56dp"
+            app:expandedTitleMarginStart="40dp"
+            app:layout_scrollFlags="enterAlways|scroll">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/gradientColor2"
+                app:tabIndicatorHeight="2dp"
+                app:tabMinWidth="120dp"
+                app:tabSelectedTextColor="@color/lightThemeSelectedTabTitleColor_v2"
+                app:tabTextAppearance="@style/StockGroDefaultTabStyleBold"
+                app:tabTextColor="#a0adff"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/market_stocks_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="false"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+</com.assetgro.stockgro.widget.NestedScrollCoordinatorLayout>

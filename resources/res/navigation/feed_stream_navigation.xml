@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feed_stream_navigation"
+    app:startDestination="@+id/feedStreamComposeFragment">
+    <fragment
+        android:label="FeedStreamComposeFragment"
+        android:name="com.assetgro.stockgro.feature_social.presentation.feed.streams.FeedStreamComposeFragment"
+        android:id="@+id/feedStreamComposeFragment">
+        <argument
+            android:name="feedType"
+            app:argType="string"
+            app:nullable="false"/>
+        <argument
+            android:name="entityId"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="toolbarTitle"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="callFromChats"
+            app:argType="boolean"
+            app:nullable="false"/>
+        <argument
+            android:name="postId"
+            app:argType="string"
+            app:nullable="true"/>
+        <argument
+            android:name="showToolbar"
+            android:defaultValue="false"
+            app:argType="boolean"
+            app:nullable="false"/>
+    </fragment>
+</navigation>

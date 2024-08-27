@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_contents"
+    android:tag="layout/layout_prep_zone_header_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/league_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/asset_class"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/league_name"/>
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/toolbarTitleColor"
+        android:ellipsize="end"
+        android:id="@+id/league_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="2"
+        android:fontFamily="@font/inter_400"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/asset_class"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/league_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+    <com.assetgro.stockgro.widget.ChipView
+        android:textSize="16dp"
+        android:textColor="@color/toolbarTitleColor"
+        android:id="@+id/asset_class"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/league_name"
+        app:layout_constraintStart_toStartOf="@+id/league_name"
+        app:layout_constraintTop_toBottomOf="@+id/league_name"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

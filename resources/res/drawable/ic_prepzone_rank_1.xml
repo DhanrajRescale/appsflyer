@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="29dp"
+    android:width="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="29">
+    <group>
+        <clip-path android:pathData="M0,0.108h20v28h-20z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080011_ic_prepzone_rank_1__0"
+            android:pathData="M6.039,10.281V8.135C6.039,7.054 6.9,6.182 7.969,6.182H12.139C13.208,6.182 14.069,7.054 14.069,8.135V10.281H15.977V8.135C15.977,5.996 14.254,4.254 12.139,4.254H7.969C5.854,4.254 4.131,5.996 4.131,8.135V10.281H6.039Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080012_ic_prepzone_rank_1__1"
+            android:pathData="M16.835,25.434C20.924,21.643 21.2,15.217 17.45,11.082C13.7,6.948 7.345,6.669 3.256,10.461C-0.834,14.252 -1.109,20.678 2.641,24.813C6.391,28.947 12.746,29.226 16.835,25.434Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080013_ic_prepzone_rank_1__2"
+            android:pathData="M16.492,25.063C20.375,21.464 20.636,15.363 17.076,11.437C13.515,7.511 7.482,7.247 3.599,10.847C-0.284,14.447 -0.545,20.548 3.015,24.473C6.575,28.399 12.609,28.663 16.492,25.063Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080014_ic_prepzone_rank_1__3"
+            android:pathData="M15.546,24.005C18.854,20.935 19.075,15.735 16.039,12.389C13.003,9.044 7.86,8.82 4.551,11.89C1.243,14.96 1.022,20.16 4.058,23.506C7.094,26.851 12.237,27.075 15.546,24.005Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M2.454,18.495C2.454,13.953 6.092,10.274 10.585,10.274C12.693,10.274 14.608,11.09 16.054,12.42C14.569,10.771 12.431,9.729 10.046,9.729C5.554,9.729 1.916,13.408 1.916,17.95C1.916,20.361 2.946,22.524 4.577,24.025C3.262,22.563 2.454,20.626 2.454,18.495Z"
+            android:strokeAlpha="0.45"
+            android:fillAlpha="0.45"/>
+        <path
+            android:fillColor="#f44b16"
+            android:pathData="M15.2,11.58C16.354,12.996 17.423,15.197 17.423,17.18C17.423,21.722 13.785,25.401 9.292,25.401C7.339,25.401 5.162,24.313 3.754,23.154C5.246,24.997 7.508,26.171 10.046,26.171C14.538,26.171 18.177,22.493 18.177,17.95C18.177,15.384 17.015,13.097 15.192,11.588L15.2,11.58Z"
+            android:strokeAlpha="0.67"
+            android:fillAlpha="0.67"/>
+        <path
+            android:fillColor="#cc3911"
+            android:pathData="M11.639,13.315V22.578H9.246V15.298H7.485V13.315H11.639Z"
+            android:strokeAlpha="0.67"
+            android:fillAlpha="0.67"/>
+        <path
+            android:fillColor="#1268c6"
+            android:pathData="M11.131,0.108L7.508,6.528C7.316,6.865 7.7,7.217 8.246,7.217H9L13.008,0.108H11.131Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M13.008,0.108L8.992,7.217H10.869L14.885,0.108H13.008Z"/>
+        <path
+            android:fillColor="#eb3723"
+            android:pathData="M14.885,0.108L11.816,5.538L10.877,7.207V7.217H12.208C12.393,7.217 12.562,7.177 12.7,7.101C12.808,7.046 12.893,6.976 12.946,6.885L16.77,0.108H14.885Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080015_ic_prepzone_rank_1__4"
+            android:pathData="M13.939,5.125L12.946,6.88C12.893,6.971 12.808,7.041 12.7,7.096C12.562,7.172 12.393,7.212 12.208,7.212H8.239C7.693,7.212 7.316,6.855 7.5,6.523L11.116,0.133L13.939,5.125Z"
+            android:strokeAlpha="0.69"
+            android:fillAlpha="0.69"/>
+        <path
+            android:fillColor="#1268c6"
+            android:pathData="M8.754,0.108H6.877L10.885,7.207V7.217H12.216C12.4,7.217 12.569,7.177 12.708,7.101L11.823,5.543L8.754,0.108Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M4.992,0.108L9.008,7.217H10.885L6.869,0.108H4.992Z"/>
+        <path
+            android:fillColor="#eb3723"
+            android:pathData="M3.108,0.108L6.931,6.88C7.046,7.081 7.339,7.217 7.669,7.217H9L4.993,0.108H3.116H3.108Z"/>
+    </group>
+</vector>

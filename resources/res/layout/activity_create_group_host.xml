@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/activity_create_group_host_0"
+    android:background="@color/screenBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/app_bar_layout"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:theme="@style/ToolbarMenuStyle"
+            android:id="@+id/toolbar"
+            android:background="@drawable/collapsing_app_bar_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/collapsed_toolbar_height"
+            android:minHeight="@dimen/collapsed_toolbar_height"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:elevation="0dp"
+            app:layout_collapseMode="pin"
+            app:navigationIcon="@drawable/ic_back"
+            app:titleTextColor="@color/toolbarTitleColor"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_app_bar_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

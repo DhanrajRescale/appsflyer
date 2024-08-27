@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="220"
+    android:versionName="1.11.9"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    android:requiredSplitTypes="base__abi,base__density"
+    android:splitTypes=""
+    package="com.assetgro.stockgro.prod"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.linkedin.android"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.google.android.youtube"/>
+        <intent>
+            <data
+                android:scheme="upi"
+                android:host="pay"
+                android:pathPattern=".*"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <data
+                android:scheme="upi"
+                android:host="mandate"
+                android:pathPattern=".*"/>
+        </intent>
+        <intent>
+            <data
+                android:scheme="upi"
+                android:pathPattern=".*"/>
+        </intent>
+        <intent>
+            <data
+                android:scheme="juspay"
+                android:host="pay"
+                android:pathPattern=".*"/>
+        </intent>
+        <intent>
+            <data
+                android:scheme="credpay"
+                android:host="checkout"
+                android:pathPattern=".*"/>
+        </intent>
+        <package android:name="com.tatadigital.tcp.dev"/>
+        <package android:name="com.tatadigital.tcp"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="application/uri"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission
+        android:name="com.assetgro.stockgro.prod.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.assetgro.stockgro.prod.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"/>
+    <application
+        android:theme="@style/Theme.App.Starting"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.assetgro.stockgro.StockGroApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/appsflyer_backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:isSplitRequired="true"
+        android:requestLegacyExternalStorage="true">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.assetgro.stockgro.prod.pdfprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.options.OptionsListHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <service
+            android:name="com.google.android.gms.metadata.ModuleDependencies"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data
+                android:name="photopicker_activity:0:required"
+                android:value=""/>
+        </service>
+        <activity
+            android:theme="@style/Theme.Transparent"
+            android:name="com.assetgro.stockgro.ui.home.v2.TransparentActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.members.GroupInvitedListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.members.compose.AddMembersHostComposeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.presentation.video.YoutubeVideoFullScreenActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.message_invites.MessageInvitesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.WithdrawableLimitActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""/>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.stock.v2.presentation.chart.StockTradingViewFullScreenChartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.self.ImagePreviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_onboarding.presentation.login.deletion.DeleteConfirmationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""/>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.self.ImageCropActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.report.ReportEntityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.self.EditProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.portfolio.LeaguePortfolioHoldingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.user.UserProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.arena.completed.CompletedLeagueDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.notifications.NotificationsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.championsChart.ChampionsChartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.assetgro.stockgro.ui.splash.SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="stockgro.onelink.me"
+                    android:pathPrefix="/vNON"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="stockgro"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.assetgro.stockgro.ui.DeepLinkActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="app.stockgro"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar.FullScreen"
+            android:name="com.assetgro.stockgro.feature_onboarding.presentation.login.LoginActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.main.MainActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.stock.detail.StockDetailHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.arena.detail.pre.LeagueDetailPreJoiningActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.home.portfolio.list.TopPortfolioListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.hedwig.utils.PhotoViewerActivity"
+            android:exported="false"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.hedwig.utils.MediaPlayerActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.arena.detail.post.LeagueDetailPostJoiningActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.home.WalletHomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.recharge.RechargeWalletActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.portfolio.detail.PortfolioDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.stock.list.StockListHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.stock.modify.StockModifyHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.rate.RateAppActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.invite.InviteActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="app"
+                    android:host="stockgro.club"
+                    android:pathPattern="/app/friend/invite"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.withdrawal.PaymentWithdrawalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.withdrawal.WithdrawalDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.assetgro.stockgro.prod.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"/>
+        <activity
+            android:theme="@style/com_facebook_activity_theme"
+            android:label="@string/app_name"
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/facebook_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="fbconnect"
+                    android:host="cct.com.assetgro.stockgro.prod"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.self.MyProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.faq.FaqActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.stock.search.MarketAssetSearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.home.stockgyan.gyan.StockGyanActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.invite.InvitedFriendsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.redemption.home.RedemptionHostActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="app"
+                    android:host="stockgro.club"
+                    android:pathPattern="/app/exchange/bonus"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.redemption.offers.details.OfferDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.redemption.orders.RedemptionOrdersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.redemption.offers.tnc.OfferTNCActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.flipkart.youtubeview.activity.YouTubeActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.tutorials.TutorialsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.portfolio.unlock.UnlockPortfolioHostActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="app"
+                    android:host="stockgro.club"
+                    android:pathPattern="/app/portfolio/unlock"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.maintenance.MaintenanceWindowActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.arena.detail.post.leaderboard.winner.LeagueWinnersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.search.SocialAdvancedSearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.members.GroupMemberListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.create.GroupCreateHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.members.BannedMembersListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.discover.info.GroupDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.members.contacts.AddFriendsHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.list.UserGroupListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.messages.thread.MessageThreadInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.messages.pin.GroupPinnedMessagesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.activation.DeactivatedMembersListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.utils.MediaPlayerActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.utils.PhotoViewerActivity"
+            android:exported="false"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.stockgyan.StockGyanGroupsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.stockgyan.StockGyanIndexActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.auth.SocialAuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.profile.followers.FollowerFollowingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_market.presentation.market.asset.insights.detail.MarketInsightsDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.auth.util.linkedin.helpers.LinkedInAuthenticationActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="stockgro.onelink.me"
+                    android:pathPrefix="/vNON/mega6my1"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.kyc.KycWebViewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.kyc.KycHostActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.about.AppPrivacyPolicyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.about.AppTncActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.drawer.about.AppAboutSectionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.subscription.ManageSubscriptionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.detail.group.info.GroupInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.helpcenter.StockGroHelpCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.create_compose.screens.create_group.GroupCreateHostActivityCompose"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.withdrawal.DefaultWebViewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.host.GroupDetailHostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.presentation.slider.ImageSliderActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.payments.transactions.TransactionHistoryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.presentation.block.BlockedUserListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.social.presentation.video.VideoFullScreenActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_market.presentation.fno.OptionDetailHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_market.presentation.fno.order.OptionOrderPendingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_market.presentation.fno.search.MarketOptionSearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_market.presentation.market.search.MarketAdvancedSearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.missions.presentation.MissionsHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_social.presentation.feed.streams.FeedStreamHostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_social.presentation.feed.details.FeedPostStreamDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.preview.MediaAssetUploadPreviewActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.ui.chat.compose.ChatMediaViewerActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.assetgro.stockgro.feature_social.presentation.RiaProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <service
+            android:name="com.assetgro.stockgro.data.remote.StockGroFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="0x7f080468"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white"/>
+        <meta-data
+            android:name="com.webengage.sdk.android.environment"
+            android:value="us"/>
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="true"/>
+        <receiver android:name="com.assetgro.stockgro.ui.social.presentation.SocialShareBroadcastReceiver"/>
+        <activity
+            android:name="in.juspay.hypersdk.core.CustomtabActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="in.juspay.hypersdk.core.CustomtabResult"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="juspay"
+                    android:host="com.assetgro.stockgro.prod"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.juspay.hypernfc.NfcActivity"
+            android:exported="false"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <activity
+            android:theme="@style/FirebaseUI.Transparent"
+            android:label=""
+            android:name="com.firebase.ui.auth.KickoffActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/FirebaseUI.Transparent"
+            android:label=""
+            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/FirebaseUI.Transparent"
+            android:label=""
+            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+            android:exported="false"/>
+        <activity
+            android:label="@string/fui_title_recover_password_activity"
+            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_sign_in_default"
+            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_sign_in_with_phone_number"
+            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible"/>
+        <activity
+            android:label="@string/fui_title_welcome_back_idp_prompt"
+            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_title_welcome_back_password_prompt"
+            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_title_welcome_back_password_prompt"
+            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/FirebaseUI.Transparent"
+            android:label=""
+            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_sign_in_default"
+            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:label="@string/fui_default_toolbar_title"
+            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+            android:exported="false"
+            android:authorities="com.assetgro.stockgro.prod.authuiinitprovider"
+            android:initOrder="90"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="genericidp"
+                    android:host="firebase.auth"
+                    android:path="/"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="recaptcha"
+                    android:host="firebase.auth"
+                    android:path="/"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.assetgro.stockgro.prod.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:exported="false"
+            android:authorities="com.assetgro.stockgro.prod.FacebookInitProvider"/>
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <activity android:name="com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity"/>
+        <receiver android:name="com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver"/>
+        <service android:name="com.webengage.sdk.android.ExecutorService"/>
+        <service android:name="com.webengage.sdk.android.EventLogService"/>
+        <service
+            android:name="com.webengage.sdk.android.NotificationClickHandlerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.webengage.sdk.android.intent.ACTION"/>
+                <category android:name="com.assetgro.stockgro.prod"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent"
+            android:name="com.webengage.sdk.android.actions.render.WebEngageActivity"
+            android:configChanges="screenSize|orientation"/>
+        <receiver
+            android:name="com.webengage.sdk.android.WebEngageReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.webengage.sdk.android.intent.ACTION"/>
+                <category android:name="com.assetgro.stockgro.prod"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.webengage.sdk.android.WebEngageJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity
+            android:theme="@style/Theme.Transparent"
+            android:name="com.webengage.sdk.android.WETransparentActivity"
+            android:enabled="true"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="3"/>
+    </application>
+</manifest>

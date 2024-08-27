@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragment_unlock_portfolio_list">
+    <fragment
+        android:label="unlock_portfolio_list"
+        android:name="com.assetgro.stockgro.ui.portfolio.unlock.list.UnlockPortfolioListFragment"
+        android:id="@+id/fragment_unlock_portfolio_list">
+        <action
+            android:id="@+id/action_fragment_unlock_portfolio_list_to_fragment_unlock_portfolio_details"
+            app:destination="@+id/fragment_unlock_portfolio_details"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_from_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"/>
+    </fragment>
+    <fragment
+        android:label="unlock_portfolio_details"
+        android:name="com.assetgro.stockgro.ui.portfolio.unlock.detail.UnlockPortfolioDetailFragment"
+        android:id="@+id/fragment_unlock_portfolio_details">
+        <argument
+            android:name="unlock_portfolio"
+            app:argType="com.assetgro.stockgro.data.remote.response.UnlockPortfolioData"
+            app:nullable="false"/>
+        <argument
+            android:name="wallet"
+            app:argType="com.assetgro.stockgro.data.model.portfolio.WalletBalanceResponseDto"
+            app:nullable="false"/>
+    </fragment>
+</navigation>

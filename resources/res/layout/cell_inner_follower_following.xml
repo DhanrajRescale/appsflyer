@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/cell_inner_follower_following_0"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+    <ImageView
+        android:id="@+id/user_image_view"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginVertical="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textSize="14dp"
+        android:id="@+id/user_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/user_image_view"
+        app:layout_constraintTop_toTopOf="@+id/user_image_view"
+        style="@style/RedHatBold.Black"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textSize="12dp"
+        android:id="@+id/user_name_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/user_name_text"
+        app:layout_constraintTop_toBottomOf="@+id/user_name_text"
+        style="@style/RedHatBold.Brown"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

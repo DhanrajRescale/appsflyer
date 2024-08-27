@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/layout_crown_image_view_0"
+    android:layout_width="56dp"
+    android:layout_height="56dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_placeholder_user"/>
+    <ImageView
+        android:id="@+id/center_crown"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-8dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_crown"/>
+    <ImageView
+        android:id="@+id/right_crown"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-8dp"
+        android:layout_below="@+id/image"
+        android:layout_marginEnd="2dp"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/ic_crown"/>
+    <ImageView
+        android:id="@+id/left_crown"
+        android:visibility="gone"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-8dp"
+        android:layout_below="@+id/image"
+        android:layout_marginStart="2dp"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/ic_crown"/>
+</RelativeLayout>

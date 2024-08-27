@@ -1,0 +1,62 @@
+{
+  "countries": [
+    {
+      "name": "India",
+      "code": "IN",
+      "prefix": "+91",
+      "length": 10,
+      "otp_channels": [
+        {
+          "name": "sms",
+          "display_name": "SMS",
+          "image_url": "",
+          "otp_retry_timer": 60
+        },
+        {
+          "name": "voice",
+          "display_name": "VOICE",
+          "image_url": "",
+          "otp_retry_timer": 60
+        }
+      ],
+      "flag_url": {
+        "rectangular": "https://storage.googleapis.com/stockgro-assets/countries_flag/india.png",
+        "circular": "https://storage.googleapis.com/stockgro-assets/countries_flag/india_circular.png"
+      },
+      "referral_code_banner_url": "https://storage.googleapis.com/home_page_assets_prod/signup_welcome.png",
+      "locale": "en_IN",
+      "default_otp_channel": {
+        "name": "sms",
+        "display_name": "SMS",
+        "image_url": "",
+        "otp_retry_timer": 60
+      }
+    },
+    {
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "prefix": "+971",
+      "length": 9,
+      "otp_channels": [
+        {
+          "name": "whatsapp",
+          "display_name": "WHATSAPP",
+          "image_url": "",
+          "otp_retry_timer": 60
+        }
+      ],
+      "flag_url": {
+        "rectangular": "https://storage.googleapis.com/stockgro-assets/countries_flag/UAE.png",
+        "circular": "https://storage.googleapis.com/stockgro-assets/countries_flag/UAE_circular.png"
+      },
+      "referral_code_banner_url": "https://storage.googleapis.com/home_page_assets_prod/signup_welcome_without_referral.png",
+      "locale": "en_AE",
+      "default_otp_channel": {
+        "name": "whatsapp",
+        "display_name": "WHATSAPP",
+        "image_url": "",
+        "otp_retry_timer": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/activity_report_account_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/toolbar_container"
+        android:background="@drawable/collapsing_app_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsed_toolbar_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:layout_collapseMode="pin"
+            app:navigationIcon="@drawable/ic_back"
+            app:subtitleTextAppearance="@style/CollapsedAppBar"
+            app:titleTextAppearance="@style/CollapsedAppBar"
+            app:titleTextColor="@color/toolbarTitleColor"/>
+    </LinearLayout>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_container"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

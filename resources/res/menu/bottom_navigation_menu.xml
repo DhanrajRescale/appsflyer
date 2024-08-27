@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_home_selector"
+        android:id="@+id/home_fragment"
+        android:title="@string/home"/>
+    <item
+        android:icon="@drawable/ic_arena_selector"
+        android:id="@+id/arena_fragment"
+        android:title="@string/arena"/>
+    <item
+        android:icon="@drawable/ic_stock_selector"
+        android:id="@+id/market_fragment"
+        android:title="@string/text_market"/>
+    <item
+        android:icon="@drawable/ic_portfolio_selector"
+        android:id="@+id/portfolio_fragment"
+        android:title="@string/portfolio"/>
+    <item
+        android:icon="@drawable/ic_social_selector"
+        android:id="@+id/social_fragment"
+        android:title="@string/text_social_lowercase"/>
+</menu>

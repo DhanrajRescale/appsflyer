@@ -1,0 +1,214 @@
+{
+  "categories": [
+    {
+      "category_id": "market_momentum",
+      "name": "Market Momentum",
+      "description": "Directional Trading Views",
+      "border_color": "0D7450",
+      "sub_categories": [
+        {
+          "sub_category_id": "today_setup",
+          "name": "Today's Trading Setup",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/today_setup.png",
+          "fill_color": "000F0D",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "index_strategies",
+          "name": "Index Strategies",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/index_strategies.png",
+          "fill_color": "02402B",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "watch_out_for",
+          "name": "Watch Out For",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/watch_out_for.png",
+          "fill_color": "0D7450",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "hourly_views",
+          "name": "Hourly Views",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/hourly_views.png",
+          "fill_color": "19A574",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "daily_views",
+          "name": "Daily Views",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/daily_views.png",
+          "fill_color": "35C794",
+          "is_liked": true
+        },
+        {
+          "sub_category_id": "weekly_views",
+          "name": "Weekly Views",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/weekly_views.png",
+          "fill_color": "6CDCB5",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "trade_view",
+          "name": "Trade Views",
+          "category_id": "market_momentum",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/weekly_views.png",
+          "fill_color": "FFAB09",
+          "is_liked": false,
+          "is_full_width": true,
+          "description": "6 new views"
+        }
+      ]
+    },
+    {
+      "category_id": "trading_strategies",
+      "name": "Trading Strategies",
+      "description": "Systematic Investment Views",
+      "border_color": "33CCFA",
+      "sub_categories": [
+        {
+          "sub_category_id": "fundamental_views",
+          "name": "Fundamental Views",
+          "category_id": "trading_strategies",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/fundamental_views.png",
+          "fill_color": "0890B9",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "technical_views",
+          "name": "Technical Views",
+          "category_id": "trading_strategies",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/technical_views.png",
+          "fill_color": "12BDF3",
+          "is_liked": false
+        }
+      ]
+    },
+    {
+      "category_id": "daily_updates",
+      "name": "Daily Updates",
+      "description": "Pre-market and post-market expert analysis",
+      "border_color": "9733FA",
+      "sub_categories": [
+        {
+          "sub_category_id": "pre_opening_commentary",
+          "name": "Pre-Opening Commentary",
+          "category_id": "daily_updates",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/pre_opening_commentary.png",
+          "fill_color": "9733FA",
+          "is_liked": true
+        },
+        {
+          "sub_category_id": "post_closing_commentary",
+          "name": "Post-Closing Commentary",
+          "category_id": "daily_updates",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/post_closing_commentary.png",
+          "fill_color": "C183FF",
+          "is_liked": true
+        }
+      ]
+    },
+    {
+      "category_id": "sector_picks",
+      "name": "Sector Picks",
+      "description": "Sectoral trends and break-outs",
+      "border_color": "8D3303",
+      "sub_categories": [
+        {
+          "sub_category_id": "stock_in_news",
+          "name": "Stock In News",
+          "category_id": "sector_picks",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/stock_in_news.png",
+          "fill_color": "3F1600",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "hidden_gems",
+          "name": "Hidden Gems",
+          "category_id": "sector_picks",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/hidden_gems.png",
+          "fill_color": "8D3303",
+          "is_liked": true
+        },
+        {
+          "sub_category_id": "time_to_exit",
+          "name": "Time To Exit",
+          "category_id": "sector_picks",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/time_to_exit.png",
+          "fill_color": "B94608",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "trending_sectors",
+          "name": "Trending Sectors",
+          "category_id": "sector_picks",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/trending_sectors.png",
+          "fill_color": "F66210",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "sector_breakout",
+          "name": "Sector Breakout",
+          "category_id": "sector_picks",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/sector_breakout.png",
+          "fill_color": "FF7E36",
+          "is_liked": false
+        }
+      ]
+    },
+    {
+      "category_id": "bro_become_pro",
+      "name": "Bro Become Pro",
+      "description": "Learn from the wisdom and experience of experts",
+      "border_color": "9D7809",
+      "sub_categories": [
+        {
+          "sub_category_id": "psychology_of_money",
+          "name": "Psychology of Money",
+          "category_id": "bro_become_pro",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/psychology_of_money.png",
+          "fill_color": "141000",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "equity_research",
+          "name": "Equity Research",
+          "category_id": "bro_become_pro",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/equity_research.png",
+          "fill_color": "3F3300",
+          "is_liked": true
+        },
+        {
+          "sub_category_id": "macro_views",
+          "name": "Macro Views",
+          "category_id": "bro_become_pro",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/macro_views.png",
+          "fill_color": "9D7809",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "ipo",
+          "name": "IPO",
+          "category_id": "bro_become_pro",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/ipo.png",
+          "fill_color": "E7BC14",
+          "is_liked": false
+        },
+        {
+          "sub_category_id": "miscellaneous",
+          "name": "Miscellaneous",
+          "category_id": "bro_become_pro",
+          "logo_url": "https://storage.googleapis.com/post_meta_assets/miscellaneous.png",
+          "fill_color": "FED425",
+          "is_liked": false
+        }
+      ]
+    }
+  ]
+}

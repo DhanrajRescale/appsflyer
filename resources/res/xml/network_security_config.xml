@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+    <base-config cleartextTrafficPermitted="false"/>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.stockgro.com
+        </domain>
+        <domain includeSubdomains="true">dev.stockgro.com
+        </domain>
+        <domain includeSubdomains="true">storage.stockgro.com
+        </domain>
+        <domain includeSubdomains="true">prod-storage.stockgro.com
+        </domain>
+    </domain-config>
+</network-security-config>

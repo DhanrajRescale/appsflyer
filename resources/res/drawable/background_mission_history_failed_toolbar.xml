@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="218dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="218">
+    <path
+        android:fillColor="#e73817"
+        android:pathData="M0,0H360V186C360,203.67 345.67,218 328,218H32C14.33,218 0,203.67 0,186V0Z"/>
+    <group>
+        <clip-path android:pathData="M0,0H360V186C360,203.67 345.67,218 328,218H32C14.33,218 0,203.67 0,186V0Z"/>
+        <path
+            android:fillColor="@drawable/res_0x7f080007_background_mission_history_failed_toolbar__0"
+            android:pathData="M284,240C386.73,240 470,156.73 470,54C470,-48.72 386.73,-132 284,-132C181.27,-132 98,-48.72 98,54C98,156.73 181.27,240 284,240ZM283.62,233.61C345.67,233.61 395.97,183.31 395.97,121.26C395.97,59.21 345.67,8.91 283.62,8.91C221.57,8.91 171.27,59.21 171.27,121.26C171.27,183.31 221.57,233.61 283.62,233.61Z"
+            android:strokeAlpha="0.1"
+            android:fillAlpha="0.1"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

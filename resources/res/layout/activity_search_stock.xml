@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="layout/activity_search_stock_0"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/ToolbarMenuStyle"
+        android:id="@+id/toolbar"
+        android:background="@drawable/collapsing_app_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsed_toolbar_height"
+        android:minHeight="@dimen/collapsed_toolbar_height"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:elevation="0dp"
+        app:layout_collapseMode="pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_back_button"
+        app:titleTextColor="@color/toolbarTitleColor"/>
+    <include
+        android:id="@+id/layout_search_stocks"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        layout="@layout/layout_search_stocks"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

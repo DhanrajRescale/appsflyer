@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:tag="layout/bottom_sheet_task_detail_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="514dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="300dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout
+        android:tag="binding_1"
+        android:background="@drawable/top_left_right_rounded_color_white_corner_radius_32dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space">
+        <include
+            android:id="@+id/layout_content_mission_detail"
+            layout="@layout/layout_content_mission_detail"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

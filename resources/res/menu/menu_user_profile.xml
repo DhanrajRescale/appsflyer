@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_overflow_menu"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_options_report_user"
+                android:title="@string/text_report_user"
+                app:iconTint="@color/white"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menu_options_block_user"
+                android:title="@string/text_block_user"
+                app:iconTint="@color/white"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

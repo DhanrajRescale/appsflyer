@@ -1,0 +1,932 @@
+{
+  "elements": [
+    {
+      "post": {
+        "post_id": "94c192e1-8102-4bc0-8222-b9ac9fbb57f31",
+        "published_at": null,
+        "expired_at": null,
+        "header": {
+          "title": "<b>Nikhil Jain</b> from Market Space by Dr. Nikhil Jain has shared an trade view  on 1st March",
+          "is_sebi_registered": true,
+          "display_image": "https://storage.googleapis.com/stockgro-chat-prod/group_media/92a15d99-bf57-435d-b09e-d30bfbd6d238/ca772464-ac78-4488-9e6c-96e6b0e38d0c.jpeg",
+          "group_id": "92a15d99-bf57-435d-b09e-d30bfbd6d238",
+          "user_id": "1fe6f967-fc5a-4bf8-8ca6-96a0e8a42948",
+          "is_followed": false,
+          "creator_name": "Nikhil Jain",
+          "group_name": "Enlightened Investing"
+        },
+        "body": {
+          "template_type": "TRADE",
+          "trade_content": {
+            "status": "LIVE",
+            "stock_meta": {
+              "identifier": "TITAN",
+              "name": "Titan Company",
+              "image_url": "https://storage.googleapis.com/stocks_logo/stocks/stocks/TITAN.png",
+              "last_traded_price": 3753.2,
+              "market_price_change": {
+                "value": 3.05,
+                "percentage": 0.081,
+                "type": "POSITIVE"
+              },
+              "trade_ticks": [
+                {
+                  "ts": 1719301800,
+                  "val": 99.74
+                },
+                {
+                  "ts": 1719301500,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719301200,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300900,
+                  "val": 99.73
+                },
+                {
+                  "ts": 1719300600,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300300,
+                  "val": 99.8
+                },
+                {
+                  "ts": 1719300000,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719299700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719299400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719299100,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719298800,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719298500,
+                  "val": 99.63
+                },
+                {
+                  "ts": 1719298200,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719297900,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297600,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297300,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719297000,
+                  "val": 99.82
+                },
+                {
+                  "ts": 1719296700,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719296400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719296100,
+                  "val": 99.67
+                },
+                {
+                  "ts": 1719295800,
+                  "val": 99.57
+                },
+                {
+                  "ts": 1719295500,
+                  "val": 99.62
+                },
+                {
+                  "ts": 1719295200,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719294900,
+                  "val": 99.86
+                },
+                {
+                  "ts": 1719294600,
+                  "val": 99.66
+                },
+                {
+                  "ts": 1719294300,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719294000,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719293400,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719292800,
+                  "val": 100.04
+                },
+                {
+                  "ts": 1719292500,
+                  "val": 100.02
+                },
+                {
+                  "ts": 1719292200,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719291900,
+                  "val": 99.97
+                },
+                {
+                  "ts": 1719291600,
+                  "val": 100.06
+                },
+                {
+                  "ts": 1719291300,
+                  "val": 99.95
+                },
+                {
+                  "ts": 1719291000,
+                  "val": 99.89
+                },
+                {
+                  "ts": 1719290700,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290400,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719289800,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719289500,
+                  "val": 100.11
+                },
+                {
+                  "ts": 1719289200,
+                  "val": 100.26
+                },
+                {
+                  "ts": 1719288900,
+                  "val": 100.28
+                },
+                {
+                  "ts": 1719288600,
+                  "val": 100.2
+                },
+                {
+                  "ts": 1719288300,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719288000,
+                  "val": 100.23
+                }
+              ]
+            },
+            "entry_price": 3803.9,
+            "target_price": 3967,
+            "trade_direction": "bullish",
+            "progress_bar": {
+              "entry_position": 80,
+              "indicator_position": 20,
+              "target_position": 100,
+              "is_negative_trade": true
+            },
+            "trade_sentiment": [
+              {
+                "name": "profit_left",
+                "order": 0,
+                "value": 3860,
+                "percentage": 5.61,
+                "type": "positive",
+                "color": "green",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              },
+              {
+                "name": "stop_loss",
+                "order": 0,
+                "value": 3423.51,
+                "percentage": 10,
+                "type": "negative",
+                "color": "gray",
+                "text_prefix": "Stop Loss @",
+                "text_suffix": ""
+              }
+            ],
+            "trade_meta": [
+              {
+                "type": "trade_duration",
+                "value": "<div style='color: #048759'><b>Short Term</b></div>",
+                "description": "Achieve in 3 months",
+                "trade_call_change_meta": {
+                  "value": 0,
+                  "percentage": 0,
+                  "type": ""
+                }
+              },
+              {
+                "type": "trade_direction",
+                "value": "<div style='color: black'>Trade is <b style='color: #EB3B3B'> -16.88% downwards</b></div>",
+                "description": "since published on 10th June 2024, 5:07PM",
+                "trade_call_change_meta": {
+                  "value": -20.26,
+                  "percentage": -16.88,
+                  "type": "NEGATIVE"
+                }
+              }
+            ],
+            "tags": [
+              "#WeeklyViews",
+              "#HourlyViews",
+              "#Today’sTradingSetup"
+            ],
+            "mentions": []
+          }
+        },
+        "footer": {
+          "likes": {
+            "is_liked": true,
+            "count": 100
+          },
+          "comments": {
+            "can_comment": true,
+            "count": 99
+          },
+          "share": {},
+          "attachments": {
+            "media": [
+              {
+                "url": {
+                  "default": "https://www.youtube.com/watch?v=mbX7yJWOkTs"
+                },
+                "type": "youtube",
+                "source": "youtube",
+                "content_id": "AMBER"
+              }
+            ]
+          },
+          "bookmarks": {
+            "is_bookmark": false
+          }
+        }
+      }
+    },
+    {
+      "post": {
+        "post_id": "94c192e1-8102-4bc0-8222-b9ac9fbb57f21",
+        "published_at": null,
+        "expired_at": null,
+        "header": {
+          "title": "<b>Nikhil Jain</b> from Market Space by Dr. Nikhil Jain has shared an trade view  on 1st March",
+          "is_sebi_registered": true,
+          "display_image": "https://storage.googleapis.com/stockgro-chat-prod/group_media/92a15d99-bf57-435d-b09e-d30bfbd6d238/ca772464-ac78-4488-9e6c-96e6b0e38d0c.jpeg",
+          "group_id": "92a15d99-bf57-435d-b09e-d30bfbd6d238",
+          "user_id": "1fe6f967-fc5a-4bf8-8ca6-96a0e8a42948",
+          "is_followed": false,
+          "creator_name": "Nikhil Jain",
+          "group_name": "Enlightened Investing"
+        },
+        "body": {
+          "template_type": "TRADE",
+          "trade_content": {
+            "status": "LIVE",
+            "stock_meta": {
+              "identifier": "TITAN",
+              "name": "Titan Company",
+              "image_url": "https://storage.googleapis.com/stocks_logo/stocks/stocks/TITAN.png",
+              "last_traded_price": 3753.2,
+              "market_price_change": {
+                "value": 3.05,
+                "percentage": 0.081,
+                "type": "POSITIVE"
+              },
+              "trade_ticks": [
+                {
+                  "ts": 1719301800,
+                  "val": 99.74
+                },
+                {
+                  "ts": 1719301500,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719301200,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300900,
+                  "val": 99.73
+                },
+                {
+                  "ts": 1719300600,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300300,
+                  "val": 99.8
+                },
+                {
+                  "ts": 1719300000,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719299700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719299400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719299100,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719298800,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719298500,
+                  "val": 99.63
+                },
+                {
+                  "ts": 1719298200,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719297900,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297600,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297300,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719297000,
+                  "val": 99.82
+                },
+                {
+                  "ts": 1719296700,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719296400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719296100,
+                  "val": 99.67
+                },
+                {
+                  "ts": 1719295800,
+                  "val": 99.57
+                },
+                {
+                  "ts": 1719295500,
+                  "val": 99.62
+                },
+                {
+                  "ts": 1719295200,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719294900,
+                  "val": 99.86
+                },
+                {
+                  "ts": 1719294600,
+                  "val": 99.66
+                },
+                {
+                  "ts": 1719294300,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719294000,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719293400,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719292800,
+                  "val": 100.04
+                },
+                {
+                  "ts": 1719292500,
+                  "val": 100.02
+                },
+                {
+                  "ts": 1719292200,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719291900,
+                  "val": 99.97
+                },
+                {
+                  "ts": 1719291600,
+                  "val": 100.06
+                },
+                {
+                  "ts": 1719291300,
+                  "val": 99.95
+                },
+                {
+                  "ts": 1719291000,
+                  "val": 99.89
+                },
+                {
+                  "ts": 1719290700,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290400,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719289800,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719289500,
+                  "val": 100.11
+                },
+                {
+                  "ts": 1719289200,
+                  "val": 100.26
+                },
+                {
+                  "ts": 1719288900,
+                  "val": 100.28
+                },
+                {
+                  "ts": 1719288600,
+                  "val": 100.2
+                },
+                {
+                  "ts": 1719288300,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719288000,
+                  "val": 100.23
+                }
+              ]
+            },
+            "entry_price": 3803.9,
+            "target_price": 3967,
+            "trade_direction": "bearish",
+            "progress_bar": {
+              "entry_position": 60,
+              "indicator_position": 100,
+              "target_position": 0,
+              "is_negative_trade": true
+            },
+            "trade_sentiment": [
+              {
+                "name": "profit_left",
+                "order": 0,
+                "value": 3860,
+                "percentage": 5.61,
+                "type": "positive",
+                "color": "green",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              },
+              {
+                "name": "stop_loss",
+                "order": 0,
+                "value": 3423.51,
+                "percentage": 10,
+                "type": "negative",
+                "color": "gray",
+                "text_prefix": "Stop Loss @",
+                "text_suffix": ""
+              }
+            ],
+            "trade_meta": [
+              {
+                "type": "trade_duration",
+                "value": "<div style='color: #048759'><b>Short Term</b></div>",
+                "description": "Achieve in 3 months",
+                "trade_call_change_meta": {
+                  "value": 0,
+                  "percentage": 0,
+                  "type": ""
+                }
+              },
+              {
+                "type": "trade_direction",
+                "value": "<div style='color: black'>Trade is <b style='color: #EB3B3B'> -16.88% downwards</b></div>",
+                "description": "since published on 10th June 2024, 5:07PM",
+                "trade_call_change_meta": {
+                  "value": -20.26,
+                  "percentage": -16.88,
+                  "type": "NEGATIVE"
+                }
+              }
+            ],
+            "tags": [
+              "#WeeklyViews",
+              "#HourlyViews",
+              "#Today’sTradingSetup"
+            ],
+            "mentions": []
+          }
+        },
+        "footer": {
+          "likes": {
+            "is_liked": true,
+            "count": 100
+          },
+          "comments": {
+            "can_comment": true,
+            "count": 99
+          },
+          "share": {},
+          "attachments": {
+            "media": [
+              {
+                "url": {
+                  "default": "https://www.youtube.com/watch?v=mbX7yJWOkTs"
+                },
+                "type": "youtube",
+                "source": "youtube",
+                "content_id": "AMBER"
+              }
+            ]
+          },
+          "bookmarks": {
+            "is_bookmark": false
+          }
+        }
+      }
+    },
+    {
+      "post": {
+        "post_id": "94c192e1-8102-4bc0-8222-b9ac9fbb57f211",
+        "published_at": null,
+        "expired_at": null,
+        "header": {
+          "title": "<b>Nikhil Jain</b> from Market Space by Dr. Nikhil Jain has shared an trade view  on 1st March",
+          "is_sebi_registered": true,
+          "display_image": "https://storage.googleapis.com/stockgro-chat-prod/group_media/92a15d99-bf57-435d-b09e-d30bfbd6d238/ca772464-ac78-4488-9e6c-96e6b0e38d0c.jpeg",
+          "group_id": "92a15d99-bf57-435d-b09e-d30bfbd6d238",
+          "user_id": "1fe6f967-fc5a-4bf8-8ca6-96a0e8a42948",
+          "is_followed": false,
+          "creator_name": "Nikhil Jain",
+          "group_name": "Enlightened Investing"
+        },
+        "body": {
+          "template_type": "TRADE",
+          "trade_content": {
+            "status": "LIVE",
+            "stock_meta": {
+              "identifier": "TITAN",
+              "name": "Titan Company",
+              "image_url": "https://storage.googleapis.com/stocks_logo/stocks/stocks/TITAN.png",
+              "last_traded_price": 3753.2,
+              "market_price_change": {
+                "value": 3.05,
+                "percentage": 0.081,
+                "type": "POSITIVE"
+              },
+              "trade_ticks": [
+                {
+                  "ts": 1719301800,
+                  "val": 99.74
+                },
+                {
+                  "ts": 1719301500,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719301200,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300900,
+                  "val": 99.73
+                },
+                {
+                  "ts": 1719300600,
+                  "val": 99.7
+                },
+                {
+                  "ts": 1719300300,
+                  "val": 99.8
+                },
+                {
+                  "ts": 1719300000,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719299700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719299400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719299100,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719298800,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719298500,
+                  "val": 99.63
+                },
+                {
+                  "ts": 1719298200,
+                  "val": 99.69
+                },
+                {
+                  "ts": 1719297900,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297600,
+                  "val": 99.71
+                },
+                {
+                  "ts": 1719297300,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719297000,
+                  "val": 99.82
+                },
+                {
+                  "ts": 1719296700,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719296400,
+                  "val": 99.75
+                },
+                {
+                  "ts": 1719296100,
+                  "val": 99.67
+                },
+                {
+                  "ts": 1719295800,
+                  "val": 99.57
+                },
+                {
+                  "ts": 1719295500,
+                  "val": 99.62
+                },
+                {
+                  "ts": 1719295200,
+                  "val": 99.77
+                },
+                {
+                  "ts": 1719294900,
+                  "val": 99.86
+                },
+                {
+                  "ts": 1719294600,
+                  "val": 99.66
+                },
+                {
+                  "ts": 1719294300,
+                  "val": 99.85
+                },
+                {
+                  "ts": 1719294000,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293700,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719293400,
+                  "val": 100
+                },
+                {
+                  "ts": 1719293100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719292800,
+                  "val": 100.04
+                },
+                {
+                  "ts": 1719292500,
+                  "val": 100.02
+                },
+                {
+                  "ts": 1719292200,
+                  "val": 99.99
+                },
+                {
+                  "ts": 1719291900,
+                  "val": 99.97
+                },
+                {
+                  "ts": 1719291600,
+                  "val": 100.06
+                },
+                {
+                  "ts": 1719291300,
+                  "val": 99.95
+                },
+                {
+                  "ts": 1719291000,
+                  "val": 99.89
+                },
+                {
+                  "ts": 1719290700,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290400,
+                  "val": 100.05
+                },
+                {
+                  "ts": 1719290100,
+                  "val": 99.96
+                },
+                {
+                  "ts": 1719289800,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719289500,
+                  "val": 100.11
+                },
+                {
+                  "ts": 1719289200,
+                  "val": 100.26
+                },
+                {
+                  "ts": 1719288900,
+                  "val": 100.28
+                },
+                {
+                  "ts": 1719288600,
+                  "val": 100.2
+                },
+                {
+                  "ts": 1719288300,
+                  "val": 100.1
+                },
+                {
+                  "ts": 1719288000,
+                  "val": 100.23
+                }
+              ]
+            },
+            "entry_price": 3803.9,
+            "target_price": 3967,
+            "trade_direction": "bearish",
+            "progress_bar": {
+              "entry_position": 100,
+              "indicator_position": 30,
+              "target_position": 0,
+              "is_negative_trade": false
+            },
+            "trade_sentiment": [
+              {
+                "name": "profit_left",
+                "order": 0,
+                "value": 3860,
+                "percentage": 5.61,
+                "type": "positive",
+                "color": "green",
+                "text_prefix": "",
+                "text_suffix": "Profit left 💎"
+              },
+              {
+                "name": "stop_loss",
+                "order": 0,
+                "value": 3423.51,
+                "percentage": 10,
+                "type": "negative",
+                "color": "gray",
+                "text_prefix": "Stop Loss @",
+                "text_suffix": ""
+              }
+            ],
+            "trade_meta": [
+              {
+                "type": "trade_duration",
+                "value": "<div style='color: #048759'><b>Short Term</b></div>",
+                "description": "Achieve in 3 months",
+                "trade_call_change_meta": {
+                  "value": 0,
+                  "percentage": 0,
+                  "type": ""
+                }
+              },
+              {
+                "type": "trade_direction",
+                "value": "<div style='color: black'>Trade is <b style='color: #EB3B3B'> -16.88% downwards</b></div>",
+                "description": "since published on 10th June 2024, 5:07PM",
+                "trade_call_change_meta": {
+                  "value": -20.26,
+                  "percentage": -16.88,
+                  "type": "NEGATIVE"
+                }
+              }
+            ],
+            "tags": [
+              "#WeeklyViews",
+              "#HourlyViews",
+              "#Today’sTradingSetup"
+            ],
+            "mentions": []
+          }
+        },
+        "footer": {
+          "likes": {
+            "is_liked": true,
+            "count": 100
+          },
+          "comments": {
+            "can_comment": true,
+            "count": 99
+          },
+          "share": {},
+          "attachments": {
+            "media": [
+              {
+                "url": {
+                  "default": "https://www.youtube.com/watch?v=mbX7yJWOkTs"
+                },
+                "type": "youtube",
+                "source": "youtube",
+                "content_id": "AMBER"
+              }
+            ]
+          },
+          "bookmarks": {
+            "is_bookmark": false
+          }
+        }
+      }
+    }
+  ],
+  "end_of_response": true
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout_horizontal_category"
+    android:tag="layout/layout_horizontal_discover_category_0"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/title_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/inter_600"
+        android:layout_marginHorizontal="16dp"/>
+    <com.assetgro.stockgro.widget.NestedScrollableHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@+id/horizontal_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </com.assetgro.stockgro.widget.NestedScrollableHost>
+</LinearLayout>

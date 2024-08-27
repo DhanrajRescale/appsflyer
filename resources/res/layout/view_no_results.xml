@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/no_content_container"
+    android:tag="layout/view_no_results_0"
+    android:paddingBottom="16dp"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView
+        android:textSize="18dp"
+        android:textColor="@color/black_1A1A1A_40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="0 Results"
+        android:fontFamily="@font/inter_600"
+        android:textAlignment="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"/>
+</LinearLayout>

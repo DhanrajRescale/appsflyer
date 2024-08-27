@@ -1,0 +1,64 @@
+package com.assetgro.stockgro.data.remote.request;
+
+import com.google.gson.annotations.SerializedName;
+import in.juspay.hypersdk.core.PaymentConstants;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import nn.d;
+import okhttp3.HttpUrl;
+import org.jetbrains.annotations.NotNull;
+
+@Metadata(d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004J\t\u0010\u0007\u001a\u00020\u0003HÆ\u0003J\u0013\u0010\b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003HÆ\u0001J\u0013\u0010\t\u001a\u00020\n2\b\u0010\u000b\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\f\u001a\u00020\rHÖ\u0001J\t\u0010\u000e\u001a\u00020\u0003HÖ\u0001R\u0016\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006¨\u0006\u000f"}, d2 = {"Lcom/assetgro/stockgro/data/remote/request/TransactionStatusRequestDto;", HttpUrl.FRAGMENT_ENCODE_SET, PaymentConstants.ORDER_ID_CAMEL, HttpUrl.FRAGMENT_ENCODE_SET, "(Ljava/lang/String;)V", "getOrderId", "()Ljava/lang/String;", "component1", "copy", "equals", HttpUrl.FRAGMENT_ENCODE_SET, "other", "hashCode", HttpUrl.FRAGMENT_ENCODE_SET, "toString", "app_prodRelease"}, k = 1, mv = {1, 9, 0}, xi = 48)
+/* loaded from: classes.dex */
+public final /* data */ class TransactionStatusRequestDto {
+    public static final int $stable = 0;
+
+    @SerializedName(PaymentConstants.ORDER_ID)
+    @NotNull
+    private final String orderId;
+
+    public TransactionStatusRequestDto(@NotNull String orderId) {
+        Intrinsics.checkNotNullParameter(orderId, "orderId");
+        this.orderId = orderId;
+    }
+
+    public static /* synthetic */ TransactionStatusRequestDto copy$default(TransactionStatusRequestDto transactionStatusRequestDto, String str, int i10, Object obj) {
+        if ((i10 & 1) != 0) {
+            str = transactionStatusRequestDto.orderId;
+        }
+        return transactionStatusRequestDto.copy(str);
+    }
+
+    @NotNull
+    /* renamed from: component1, reason: from getter */
+    public final String getOrderId() {
+        return this.orderId;
+    }
+
+    @NotNull
+    public final TransactionStatusRequestDto copy(@NotNull String orderId) {
+        Intrinsics.checkNotNullParameter(orderId, "orderId");
+        return new TransactionStatusRequestDto(orderId);
+    }
+
+    public boolean equals(Object other) {
+        if (this == other) {
+            return true;
+        }
+        return (other instanceof TransactionStatusRequestDto) && Intrinsics.a(this.orderId, ((TransactionStatusRequestDto) other).orderId);
+    }
+
+    @NotNull
+    public final String getOrderId() {
+        return this.orderId;
+    }
+
+    public int hashCode() {
+        return this.orderId.hashCode();
+    }
+
+    @NotNull
+    public String toString() {
+        return d.k("TransactionStatusRequestDto(orderId=", this.orderId, ")");
+    }
+}

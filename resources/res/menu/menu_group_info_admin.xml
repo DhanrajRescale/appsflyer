@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_options_edit_group_description"
+        android:title="@string/edit_description"
+        app:iconTint="@color/white"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_options_report_group"
+        android:title="@string/text_report_group"
+        app:iconTint="@color/white"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_options_exit_group"
+        android:title="@string/exit_group"
+        app:iconTint="@color/white"
+        app:showAsAction="never"/>
+</menu>

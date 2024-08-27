@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="layout/activity_image_preview_0"
+    android:background="@color/black_1A1A1A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_gravity="center_vertical"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:navigationIcon="@drawable/ic_back"/>
+    <ImageView
+        android:id="@+id/user_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/edit_button"
+        android:background="@drawable/edit_background_ripple"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_edit"
+        android:tint="@color/white"
+        android:text="Edit"/>
+</LinearLayout>
